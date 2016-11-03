@@ -7,12 +7,12 @@ void draw() {
   fill(255);
   textSize(width/4);
   textAlign(CENTER, CENTER);
-  if (hour()>10) {
+  if (hour()>9) {
     hour=str(hour());
   } else {
     hour="0"+str(hour());
   }
-  if (minute()>10) {
+  if (minute()>9) {
     minute=str(minute());
   } else {
     minute="0"+str(minute());
